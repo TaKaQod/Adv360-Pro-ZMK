@@ -91,11 +91,11 @@
 
         numbers {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans      &trans  &trans      &trans      &trans      &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans      &trans  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans      &trans  &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &kp G   &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                      &trans  &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &kp V   &kp LS(N0)          &trans      &trans      &trans      &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans      &trans  &trans      &trans      &trans      &trans      &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans      &trans  &kp LS(N5)  &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans      &trans  &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                      &trans  &kp LS(N9)  &kp DOT     &kp COMMA   &trans      &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &kp LS(N0)  &trans          &trans      &trans      &trans      &trans      &trans
             >;
         };
 

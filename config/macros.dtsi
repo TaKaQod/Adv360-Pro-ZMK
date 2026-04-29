@@ -222,3 +222,31 @@
     bindings = <&mkp MB1 &mkp MB1>;
     display-name = "Double Click";
   };
+
+  macro_pipe_pipe: macro_pipe_pipe {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp PIPE &kp PIPE>;
+    display-name = "||";
+  };
+
+  macro_amp_amp: macro_amp_amp {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp AMPS &kp AMPS>;
+    display-name = "&&";
+  };
+
+  macro_caret: macro_caret {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp CARET &kp SPACE &kp BACKSPACE>;
+    display-name = "^";
+  };
+
+  macro_tilde: macro_tilde {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp TILDE &kp SPACE &kp BACKSPACE>;
+    display-name = "~";
+  };
